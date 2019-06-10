@@ -36,6 +36,7 @@
       // Attach the socket to the terminal
       socket.onopen = (ev) => { term.attach(socket); };
       // Not going to worry about close/error for the websocket
+      term.focus();
     </script>
   </body>
 </html>

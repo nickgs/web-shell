@@ -24,6 +24,12 @@ expressWs.app.ws('/shell', (ws, req) => {
   ws.on('message', (msg) => {
     shell.write(msg);
   });
+
+  setInterval(function() {
+	if(ws.readyState === 1) {
+		ws.ping("heartbeat");
+	}
+  }, 1000);
 });
 
 // Start the application

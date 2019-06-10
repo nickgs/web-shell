@@ -1,0 +1,20 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.12.2",
+    "@types/pty.js": "^0.2.35",
+    "@types/socket.io": "^2.1.0",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "pty.js": "^0.3.1",
+    "socket.io": "^2.1.1",
+    "typescript": "^3.2.0-dev.20181103",
+    "xterm": "^3.8.0"
+  },
+  "devDependencies": {},
+  "author": "david karapetyan",
+  "license": "MIT"
+}
